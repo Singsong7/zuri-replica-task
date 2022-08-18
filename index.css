@@ -6,38 +6,54 @@
 h2,
 .img,
 .para1,
-.butt {
+.butt, .pz, .pcat {
   text-align: center;
 }
-a:link {
+.pcat{
+  font-size: 22px;
+}
+.para1, {
+  font-size: 20px;
+}
+a:link, .pz {
   color: #e7332b;
   text-decoration: none;
 }
 a:hover {
   color: rgb(240, 86, 86);
 }
-.buttons{
-    width: 50px;
-    margin: 0 auto;
+.buttons {
+  width: 50px;
+  margin: 0 auto;
 }
 
 .button1 {
   background-color: red;
   border: 1px solid red;
-  color: white;
+  color:  white;
+  padding: 12px 28px;
+  font-size: 15px;
+  text-decoration: none;
+
+color: inherit;
+  
+
 }
-.button2{
+.button2 {
   background-color: white;
   border: 1px solid red;
-color: red;}
+  color: red;
+  padding: 12px 28px;
+  font-size: 15px;
+}
 
-  .button1:hover{
-      background-color: white;
-      color: red;
-  }
+.button1:hover {
+  background-color: white;
+  color: red;
+}
 
-  .button2:hover{
-      background-color: red;
-      color: white;
-      
-  }
+.button2:hover {
+  background-color: red;
+  color: white;
+}
+
